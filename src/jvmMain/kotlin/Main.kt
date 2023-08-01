@@ -287,6 +287,12 @@ fun IntroductionLayout(onNext: () -> Unit) {
                     }
                 }
             )
+            Text(
+                text = "- explicação básica"
+            )
+            Text(
+                text = "- um gist será criado caso não exista. caso contrário ele será carregado"
+            )
             Button(
                 onClick = onNext,
             ) {
