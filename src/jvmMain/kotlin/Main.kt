@@ -1,7 +1,5 @@
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.*
@@ -18,15 +16,9 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
-import io.ktor.client.*
-import io.ktor.client.engine.cio.*
 import kotlinx.coroutines.launch
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
-import org.jetbrains.skia.Color
-import java.io.File
-import kotlin.io.path.Path
-import kotlin.io.path.name
+import repositories.GithubRepository
+import repositories.LocalRepository
 
 
 @Composable

@@ -1,3 +1,6 @@
+package repositories
+
+import TibiaConf
 import kotlinx.serialization.json.Json
 import java.io.File
 import kotlin.io.path.Path
@@ -21,7 +24,7 @@ class LocalRepository {
 //        }
 //        println(characterHotkeys)
 //        coroutineScope.launch {
-//            var repository = GithubRepository()
+//            var repository = repositories.GithubRepository()
 //            println("Vai fazer!")
 //            try {
 //                setGists(repository.listUserGists("gsevla"))
